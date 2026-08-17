@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Large dataset — see README for download instructions
+# (stgcn_tuned_real_graph_model.pt and adj_METR-LA.pkl are small enough to stay tracked)
+METR-LA.h5
+
+# Cached model-comparison results generated at runtime
+comparison_results.json
+
+# Local incident state (regenerated at runtime, starts empty)
+incidents.json
